@@ -19,3 +19,6 @@ npm run dev
 ```sh
 npm run build
 ```
+
+docker build . -t time-app-front
+docker run -p 3000:3000 time-app-front
