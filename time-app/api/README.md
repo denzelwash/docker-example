@@ -19,3 +19,6 @@ npm run dev
 ```sh
 npm start
 ```
+
+docker build . -t time-app-back
+docker run -p 5000:5000 time-app-back
